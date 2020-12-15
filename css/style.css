@@ -72,6 +72,7 @@ html {
 body {
   font-family: var(--font-main);
   box-sizing: border-box;
+  width: 100%;
 }
 /* PROJECT MODAL */
 
@@ -122,6 +123,7 @@ body {
 }
 
 /* COMMON */
+
 .tablet-elem {
   display: none !important;
 }
@@ -152,7 +154,7 @@ body {
 }
 .container {
   width: 100%;
-  min-width: 300px;
+  /* min-width: 300px; */
 
   display: flex;
   flex-direction: column;
@@ -353,7 +355,6 @@ body {
   background-color: var(--c-dark);
 }
 .front-page-wrapper {
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -730,12 +731,7 @@ body {
 .callback-form .container {
   padding-top: 5px;
 }
-/* .callback-form {
-  width: 100%;
-  margin-top: 0px;
-  padding: 0 10px 0 10px;
-  box-sizing: border-box;
-} */
+
 .callback-wrapper {
   display: flex;
   flex-direction: column;
@@ -797,6 +793,7 @@ body {
 
 .calculator .container {
   padding-bottom: 75px;
+  width: 100%;
 }
 .calculator .calculator-icon {
   width: 195px;
@@ -841,6 +838,7 @@ body {
 .calculator-form {
   background-color: var(--c-light);
   padding: 30px 25px;
+  box-sizing: border-box;
 }
 .calculator-form-input {
   display: flex;
